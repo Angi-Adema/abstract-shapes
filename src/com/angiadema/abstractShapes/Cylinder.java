@@ -25,7 +25,7 @@ public class Cylinder extends Shape {
 	
 	// Implement toString method printing surface area and volume
 	public String toString() {
-		return "Cylinder Surface Area: " + String.format("%.2f", surface_area()) + "units^2\n" +
-	           "Cylinder Volume: " + String.format("%.2f", volume()) + "units^3\n";
+		return "Cylinder Surface Area: " + String.format("%.2f", surface_area()) + " units^2\n" +
+	           "Cylinder Volume: " + String.format("%.2f", volume()) + " units^3\n";
 	}
 }
