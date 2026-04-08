@@ -7,7 +7,7 @@ public class Cone extends Shape {
 	private double height;
 	
 	// Parameterized constructor to initialize attributes
-	public Cone (double radius, double height) {
+	public Cone(double radius, double height) {
 		this.radius = radius;
 		this.height = height;
 	}
